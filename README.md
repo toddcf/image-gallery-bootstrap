@@ -1,1 +1,1 @@
-# image-gallery-bootstrap
+# Image Gallery - Bootstrap
