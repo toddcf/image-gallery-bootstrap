@@ -3,11 +3,12 @@
 
 body {
 	padding-top: 70px;
-	background-color: #000;
+	background-image: url(../img/carbon-fiber.jpg);
+	background-attachment: fixed;
 }
 
 .navbar-inverse {
-	background-color: yellow;
+	background-color: silver;
 	color: #000;
 }
 
@@ -30,5 +31,11 @@ body {
 }
 
 .jumbotron {
-	background-color: yellow;
+	background-color: silver;
+}
+
+.thumbnail {
+	background-color: transparent;
+	border: none;
+	/*border-radius: 0;*/
 }
