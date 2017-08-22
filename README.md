@@ -2,7 +2,6 @@
 
 ## This Iteration:
 
-- Add hover effects to each image.
 - Make each image a link to that specific full-size image.
 - Add box shadow behind each image.
 - Add footer.
