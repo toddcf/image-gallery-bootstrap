@@ -3,8 +3,8 @@
 ## This Iteration:
 
 - Fix: After an attribution has been clicked, there is a little underline displayed next to the camera SVG. Get rid of this.
-- Add alt to each image tag.
 - Add hover effects to each image.
+- Make each image a link to that specific full-size image.
 - Add box shadow behind each image.
 - Add footer.
 - Add lazy loading. https://responsivedesign.is/resources/javascript-jquery/lazy-load-jquery/
