@@ -4,6 +4,13 @@ body {
 	background-attachment: fixed;
 }
 
+a:link,
+a:hover,
+a:active,
+a:visited, {
+	text-decoration: none; /* Removes small, glitchy underline when clicked. */
+}
+
 .navbar-inverse {
 	background-color: silver;
 	color: #000;
