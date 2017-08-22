@@ -3,7 +3,6 @@
 ## This Iteration:
 
 - Make each image a link to that specific full-size image.
-- Add box shadow behind each image.
 - Add footer.
 - Add lazy loading. https://responsivedesign.is/resources/javascript-jquery/lazy-load-jquery/
   - Have images fade in quickly, left to right, like on the author site's testimonials.

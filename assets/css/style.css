@@ -52,14 +52,14 @@ h3 { text-align: center; }
 
 	/*width: 100%;*/ /* 100% of its parent container, which is the <figure>. */
 	/*height: auto;*/
-	-webkit-transform: scale(1.03);
-	        -ms-transform: scale(1.03);
-	    transform: scale(1.03); /* No zoom when not hovering -- minus 3% to prevent a white gap from appearing at the edges of the image. */
-	-webkit-transition: -webkit-transform 0.3s/*, -webkit-filter 0.15s*/;
-			transition: -webkit-transform 0.3s/*, -webkit-filter 0.15s*/;
-			-o-transition: transform 0.3s/*, filter 0.15s*/;
-			transition: transform 0.3s/*, filter 0.15s*/;
-			transition: transform 0.3s, /*filter 0.15s, */-webkit-transform 0.3s/*, -webkit-filter 0.15s*/;
+	/*-webkit-transform: scale(1.03);*/
+	        /*-ms-transform: scale(1.03);*/
+	    /*transform: scale(1.03);*/ /* No zoom when not hovering -- minus 3% to prevent a white gap from appearing at the edges of the image. */
+	-webkit-transition: -webkit-all 0.3s/*, -webkit-filter 0.15s*/;
+			transition: -webkit-all 0.3s/*, -webkit-filter 0.15s*/;
+			-o-transition: all 0.3s/*, filter 0.15s*/;
+			transition: all 0.3s/*, filter 0.15s*/;
+			transition: all 0.3s, /*filter 0.15s, */-webkit-all 0.3s/*, -webkit-filter 0.15s*/;
 			/*transition: transform 0.5s,*/ /*filter 0.15s, *//*-webkit-transform 0.5s;*/
 
 }
@@ -103,4 +103,52 @@ h3 { text-align: center; }
 .span-cite {
 	display: inline-block;
 	padding: 2px 3px;
+}
+
+/* FOOTER */
+
+footer {
+
+	background-color: #000;
+	width: 100%;
+	display: inline-block;
+	margin-top: 50px;
+
+}
+
+.footer-text {
+
+	width: 30%;
+	text-align: center;
+	color: #555;
+	margin: 0 auto;
+	padding: 25px 0;
+
+}
+
+.footer-text p {
+
+	font-size: 90%;
+	padding: 15px;
+
+}
+
+footer a:link,
+footer a:visited {
+
+	color: #555;
+	border-bottom: 1px solid #555; /* Custom underline */
+	padding-bottom: 1px; /* Space for underline */
+	-webkit-transition: border-bottom 0.2s, color 0.2s;
+	-o-transition: border-bottom 0.2s, color 0.2s;
+	transition: border-bottom 0.2s, color 0.2s; /* Transition takes 0.2 seconds. */
+
+}
+
+footer a:hover,
+footer a:active {
+
+	color: #fff;
+	border-bottom: 1px solid transparent; /* Custom underline */
+
 }
