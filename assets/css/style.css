@@ -50,24 +50,16 @@ h3 { text-align: center; }
 
 .thumbnail img {
 
-	/*width: 100%;*/ /* 100% of its parent container, which is the <figure>. */
-	/*height: auto;*/
-	/*-webkit-transform: scale(1.03);*/
-	        /*-ms-transform: scale(1.03);*/
-	    /*transform: scale(1.03);*/ /* No zoom when not hovering -- minus 3% to prevent a white gap from appearing at the edges of the image. */
-	-webkit-transition: -webkit-all 0.3s/*, -webkit-filter 0.15s*/;
-			transition: -webkit-all 0.3s/*, -webkit-filter 0.15s*/;
-			-o-transition: all 0.3s/*, filter 0.15s*/;
-			transition: all 0.3s/*, filter 0.15s*/;
-			transition: all 0.3s, /*filter 0.15s, */-webkit-all 0.3s/*, -webkit-filter 0.15s*/;
-			/*transition: transform 0.5s,*/ /*filter 0.15s, *//*-webkit-transform 0.5s;*/
+	-webkit-transition: -webkit-all 0.3s;
+			transition: -webkit-all 0.3s;
+			-o-transition: all 0.3s;
+			transition: all 0.3s;
+			transition: all 0.3s, -webkit-all 0.3s;
 
 }
 
 .thumbnail img:hover {
 
-	/*-webkit-filter: brightness(115%);*/
-			/*filter: brightness(115%);		*/
 	-webkit-transform: scale(1.1);
 	        -ms-transform: scale(1.1);
 	    transform: scale(1.1); /* When hovering, zoom in 10%. */
