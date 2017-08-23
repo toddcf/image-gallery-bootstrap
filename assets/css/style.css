@@ -9,7 +9,7 @@ body {
 a:link,
 a:hover,
 a:active,
-a:visited, { text-decoration: none; /* Removes small, glitchy underline when clicked. */ }
+a:visited { text-decoration: none; /* Removes small, glitchy underline when clicked. */ }
 
 .navbar-inverse {
 
@@ -96,7 +96,7 @@ h3 { text-align: center; }
 	 position: relative;
 	 vertical-align: middle;
 	 top: -1px;
-	 fill: white;
+	 fill: #fff;
 
 }
 
