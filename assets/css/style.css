@@ -1,51 +1,49 @@
 body {
+
 	padding-top: 70px;
 	background-image: url(../img/carbon-fiber.jpg);
 	background-attachment: fixed;
+
 }
 
 a:link,
 a:hover,
 a:active,
-a:visited, {
-	text-decoration: none; /* Removes small, glitchy underline when clicked. */
-}
+a:visited, { text-decoration: none; /* Removes small, glitchy underline when clicked. */ }
 
 .navbar-inverse {
+
 	background-color: silver;
 	color: #000;
+
 }
 
-.navbar-inverse .navbar-brand {
-	color: #000;
-}
+.navbar-inverse .navbar-brand { color: #000; }
 
 .navbar-inverse .navbar-brand:focus,
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-nav>li>a:focus,
-.navbar-inverse .navbar-nav>li>a:hover {
-	color: #9d9d9d;
-}
+.navbar-inverse .navbar-nav>li>a:hover { color: #9d9d9d; }
 
-.navbar-inverse .navbar-nav>li>a {
-	color: #000;
-}
+.navbar-inverse .navbar-nav>li>a { color: #000; }
 
-.jumbotron {
-	background-color: silver;
-}
+.jumbotron { background-color: silver; }
 
 h1,
 h3 { text-align: center; }
 
 .flex {
+
 	display: flex;
 	flex-wrap: wrap;
+
 }
 
 .thumbnail {
+
 	background-color: transparent;
 	border: none;
+
 }
 
 .thumbnail img {
@@ -67,6 +65,7 @@ h3 { text-align: center; }
 }
 
 .a-cite {
+
 	background-color: black;
 	color: white;
 	text-decoration: none;
@@ -81,20 +80,25 @@ h3 { text-align: center; }
 	z-index: 2;
 	bottom: 28px;
 	right: 24px;
+
 }
 
 .svg-cite {
+
 	 height: 12px;
 	 width: auto;
 	 position: relative;
 	 vertical-align: middle;
 	 top: -1px;
 	 fill: white;
+
 }
 
 .span-cite {
+
 	display: inline-block;
 	padding: 2px 3px;
+
 }
 
 /* FOOTER */
