@@ -1,4 +1,8 @@
-# Image Gallery - Bootstrap
+# Transport Image Gallery
+
+![Transport Image Gallery](https://github.com/toddcf/image-gallery-bootstrap/blob/master/assets/img/andrew-preble-199410.jpg "Transport Image Gallery")
+
+Images that will take you away.
 
 ## Technology Used
 
